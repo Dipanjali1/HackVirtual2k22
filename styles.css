@@ -14,8 +14,8 @@
 /* Color Codes & Other Variables */
 
 :root {
-    --primary: #ffb32c;
-    --primary-variant: #F17C1C;
+    --primary: #47BDA1;
+    --primary-variant: #47BDA1;
     --text: #000;
     --text-variant: #fff;
     --highlight: #8EE619;
@@ -85,7 +85,7 @@ nav {
 .navbar-brand {
     font-size: 2rem;
     font-weight: bolder;
-    color: #e6198e;
+    color: #19e6b3;
 }
 
 .navlink-border:hover {
@@ -99,13 +99,13 @@ nav {
 }
 
 .navbar-toggler i {
-    color: #e6198e;
+    color: #19e6b3;
 }
 
 .navbar-brand:hover,
 .nav-link:hover,
 .navbar-toggler i:hover {
-    color: #e6198e;
+    color: #19e6b3;
 }
 
 a.nav-link.px-4 {
@@ -114,7 +114,7 @@ a.nav-link.px-4 {
 
 .login-btn {
     color: var(--text-variant);
-    background-image: linear-gradient(134deg, #e6198e, #e6198e, var(--primary-variant));
+    background-image: linear-gradient(134deg, #47BDA1, #47BDA1, var(--primary-variant));
     border-radius: 30px;
     padding: 10px 45px;
     margin-top: -10px;
@@ -122,7 +122,7 @@ a.nav-link.px-4 {
 
 .login-btn:hover {
     color: var(--text-variant);
-    background-image: linear-gradient(134deg, var(--primary-variant), #e6198e, #e6198e);
+    background-image: linear-gradient(134deg, var(--primary-variant), #19e6b3, #19e6b3);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     border-radius: 30px;
     padding: 10px 45px;
@@ -144,7 +144,7 @@ a.nav-link.px-4 {
 }
 
 #hero-section h1 {
-    color: #EF6700;
+    color: #47BDA1;
     letter-spacing: 1pxs;
     font-weight: 800;
     font-size: 48px;
@@ -153,7 +153,7 @@ a.nav-link.px-4 {
 }
 
 #hero-section span {
-    color: #e6198e;
+    color: #19e6b3;
     font-size: 1.4em;
 }
 
@@ -167,7 +167,7 @@ a.nav-link.px-4 {
     margin-top: 2vh;
     padding: 10px 45px;
     color: #FFF;
-    background-image: linear-gradient(to top, #E6198E, #EB47A5);
+    background-image: linear-gradient(to top, #19e6b3, #19e6b3);
     border-radius: 30px;
     /* transition: all ease-in-out 0.25s; */
 }
@@ -175,7 +175,7 @@ a.nav-link.px-4 {
 .cta:hover {
     color: #FFF;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
-    background-image: linear-gradient(to top, #EB47A5, #E6198E);
+    background-image: linear-gradient(to top, #19e6b3, #19e6b3);
     /* padding: 10px 55px; */
 }
 
@@ -206,7 +206,7 @@ a.nav-link.px-4 {
     }
     #hero-section h1 {
         font-size: normal;
-        color: #fa7f34;
+        color: #47BDA1;
     }
     #hero-section p {
         padding-top: 50px;
@@ -235,7 +235,7 @@ a.nav-link.px-4 {
     #hero-section h1 {
         margin-top: 5%;
         font-size: 2.5em;
-        color: orange;
+        color: #47BDA1;
     }
     #hero-section p {
         color: seashell;
@@ -293,7 +293,7 @@ a.nav-link.px-4 {
 }
 
 #description-section .fa-calendar-check {
-    color: #EF9425;
+    color: #47BDA1;
 }
 
 #description-section .fa-shopping-cart {
@@ -306,13 +306,13 @@ a.nav-link.px-4 {
 
 .description-cta {
     color: var(--text-variant);
-    background-color: #e6198e;
+    background-color: #19e6b3;
     border-radius: 50px;
     padding: 10px 25px;
 }
 
 .description-cta:hover {
-    color: #e6198e;
+    color: #19e6b3;
     background-color: transparent;
 }
 
@@ -331,7 +331,7 @@ a.nav-link.px-4 {
 }
 
 #build-flex a {
-    color: #EF6700;
+    color: #47BDA1;
 }
 
 #build-flex a:hover {
@@ -339,14 +339,14 @@ a.nav-link.px-4 {
 }
 
 #build-flex span {
-    color: #e6198e;
+    color: #19e6b3;
 }
 
 
 /* footer */
 
 footer {
-    background-color: #e6198e;
+    background-color: #19e6b3;
 }
 
 footer h1:hover {
@@ -497,7 +497,7 @@ footer a:hover {
 }
 
 #resources span {
-    color: #e6198e;
+    color: #19e6b3;
     font-size: 1.4em;
 }
 
@@ -526,7 +526,7 @@ footer a:hover {
     #resources h1 {
         margin-top: 5%;
         font-size: 2.5em;
-        color: orange;
+        color: #47BDA1;
     }
 
     #resources::before {
@@ -551,14 +551,14 @@ footer a:hover {
     margin-top: 2%;
     padding: 10px 45px;
     color: #FFF;
-    background-image: linear-gradient(to top, #E6198E, #EB47A5);
+    background-image: linear-gradient(to top, #19e6b3, #19e6b3);
     border-radius: 30px;
 }
 
 .resources-btn:hover {
     color: #FFF;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
-    background-image: linear-gradient(to top, #EB47A5, #E6198E);
+    background-image: linear-gradient(to top, #19e6b3, #19e6b3);
 }
 
 
@@ -583,7 +583,7 @@ footer a:hover {
     letter-spacing: 2px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #e6198e;
+    color: #19e6b3;
     font-size: 2.5em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -614,7 +614,7 @@ footer a:hover {
 
 #scholarships li:hover,
 #jobs li:hover{
-    background-color: #fdc8ff;
+    background-color: #99f1dd;
 }
 
 #scholarships a,
@@ -624,7 +624,7 @@ footer a:hover {
 
 #scholarships a:hover,
 #jobs a:hover {
-    color: #e6198e;
+    color: blueviolet;
     text-decoration: none;
 }
 
